@@ -11,8 +11,9 @@ header {
 body {
     background-color: #040616;
 }
-#logo {
+#mong {
     cursor: pointer;
+    justify-content: center;
 }
 
 #hdds {
