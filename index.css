@@ -1,0 +1,43 @@
+button {
+  background-color: transparent;
+  border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #040616;
+}
+#logo {
+    cursor: pointer;
+}
+
+#hdds {
+    justify-content: center;
+}
+#little-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #040616;
+}
+
+#little-search * {
+    cursor: pointer;
+}
+
+.little-search_button{
+    padding: 0 100px;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 20px
+}
+
+.divider {
+    flex-basis: 1px;
+    background-color: #dddddd;
+    height: 50px;
+}
